@@ -1,0 +1,67 @@
+name: terPlugin
+main: me.terPlugin.TerPlugin
+version: 0.1
+
+commands:
+  flyspeed:
+    description: только для админов, /flyspeed [число от -1 до 1]
+    usage: /<command>
+    aliases: flyspeed
+  setter:
+    description: только для админов, выделите каменным топором две точки(пкм) и пропишите комманду
+    usage: /<command>
+    aliases: setter
+  checkter:
+    description: показывает информацию о текущем месте
+    usage: /<command>
+    aliases: checkter
+  delallters:
+    description: только для админов, удаляет все территории нахуй
+    usage: /<command>
+    aliases: delallters
+  assign:
+    description: устанавливает вас как владельца территории на которой вы стоите, если она не занята и установлена
+    usage: /<command>
+    aliases: assign
+  allters:
+    description: только для админов, выводит информацию о всех существующий территориях
+    usage: /<command>
+    aliases: allters
+  delterbyid:
+    description: только для админов, удаляет территорию по её id
+    usage: /<command>
+    aliases: delterbyid
+  terlimit:
+    description: только для админов, /terlimit [ник], узнать лимит территорий игрока
+    usage: /<command>
+    aliases: terlimit
+  setterlimit:
+    description: только для админов, /setterlimit [ник] [число], изменить лимит территорий игрока
+    usage: /<command>
+    aliases: setterlimit
+  delowner:
+    description: только для админов, удаляет владельца территории на которой вы стоите
+    usage: /<command>
+    aliases: delowner
+  tool:
+    description: выдает предмет
+    usage: /<command>
+    aliases: tool
+  admintool:
+    description: только для админов, выдает предмет
+    usage: /<command>
+    aliases: admintool
+  numters:
+    description: n
+    usage: /<command>
+    aliases: numters
+  delter:
+    description: n
+    usage: /<command>
+    aliases: delter
+  allunassignedters:
+    description: n
+    usage: /<command>
+    aliases: allunassignedters
+
+api-version: 1.17
